@@ -228,7 +228,7 @@ export default function Header() {
       >
         <Toolbar sx={{ display: "flex", gap: 2 }}>
           <Typography variant="h6" color="inherit">
-            <StyledLink to="/">Ecomm</StyledLink>
+            <StyledLink to="/">eCOM</StyledLink>
           </Typography>
           <SearchBar />
           <Box flexBasis={500} sx={{ display: { md: "flex" } }}>
