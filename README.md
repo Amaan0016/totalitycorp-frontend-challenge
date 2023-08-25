@@ -7,12 +7,21 @@
 ***
 ### Tech Stack / Libraries Used :
 #### • FrontEnd : <br/>
-&ensp;React , Redux , Vite , Material UI<br />
+&ensp;React <br/>
+&ensp;Used React as the major frontend library to build the app.<br/>
+<br/>
+&ensp;Redux ToolKit <br/>
+&ensp;Implemented several states using redux such as useSelector , useDispatch etc.
+
+&ensp;Material UI <br />
+&ensp;Implemented several components using MUI such as Grid , ThemeProvider , Toolbar etc.
 #### • BackEnd : <br />
-&ensp;NodeJS <br />
+&ensp;NodeJS <br/>
+&ensp;Implemented the functionalities for the cart section such as to display the products , quantities and cost<br />
+&ensp;Implemented the filters for the products using categories etc.
 #### • Authentication : <br/>
 &ensp;FireBase <br />
-
+&ensp;Implemented login functionality and authentication using Firebase.
 ***
 
 ### ScreenShot of WebApp
