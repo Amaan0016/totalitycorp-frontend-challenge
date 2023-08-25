@@ -39,7 +39,6 @@ const AuthProvider = ({ children }) => {
 };
 
 export const useAuth = () => useContext(AuthContext);
-
 function useProvideAuth() {
   const [user, setUser] = useState();
 

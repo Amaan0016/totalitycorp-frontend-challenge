@@ -46,6 +46,11 @@ export default function Home() {
 
   return (
     <Container sx={{ py: 8 }} maxWidth="lg">
+    {/*  */}
+
+
+
+    {/*  */}
       <Grid container spacing={4}>
         {filteredProducts?.map(({ title, id, price, description, rating, image }) => (
           <Grid item key={id} xs={12} sm={6} md={3}>
