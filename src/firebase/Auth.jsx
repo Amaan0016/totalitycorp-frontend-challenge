@@ -63,8 +63,13 @@ function useProvideAuth() {
       user ? setUser(user) : setUser(null);
     });
 
-    return () => unsubscribe();
-  });
+    window.addEventListener("beforeunload", signOutUser); // Add this line
+
+    return () => {
+      unsubscribe();
+      window.removeEventListener("beforeunload", signOutUser); // Add this line
+    };
+  }, []);
 
   return {
     signIn,
