@@ -193,6 +193,11 @@ export default function Header() {
   function handleMenuClose() {
     setAnchorEl(null);
   }
+
+  function handleLoginClick() {
+    navigate("/login"); // Navigate to the login page when the "Login" button is clicked
+  }
+
   async function logout() {
     await signOut();
     navigate("/login");
@@ -242,7 +247,7 @@ export default function Header() {
                 Hello, {user.displayName ?? user.email}
               </Button>
             ) : (
-              <Button color="inherit">Login</Button>
+              <Button color="inherit" onClick={handleLoginClick}>Login</Button>
             )}
           </Box>
         </Toolbar>
