@@ -1,5 +1,7 @@
 # E-Commerce App
 ### Build a Business-to-consumer E-Commerce website that allows people to sell goods and different products.
+### deployed app - https://totalitycorp-frontend-challenge-dxhp.vercel.app/
+
 #### To Start App
 `npm i`
 `npm run dev`
